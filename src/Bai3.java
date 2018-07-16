@@ -121,7 +121,16 @@ public class Bai3 {
             px += 0;
             return;
         }
-
+         if (px+vx ==4 && py+vy <5 ) {
+            px += 0;
+            py+=0;
+            return;
+        }
+        if (bx+vx ==4 && by+vy <5 ) {
+            bx += 0;
+            by+=0;
+            return;
+        }
         if(px+vx==bx && vy+py==by){
             if (by+vy < 0 || by+vy > 9) {
                 by += 0;
