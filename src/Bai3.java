@@ -77,7 +77,7 @@ public class Bai3 {
         gy = rd.nextInt(10);
         bx = rd.nextInt(10);
         by = rd.nextInt(10);
-        if ((px == gx && py == gy) || (px == bx && py == by) || (px == bx && py == by) || (px == 4 && py < 5) || (bx == 4 && by < 5) || (gx == 4 && gy < 5) ||bx==0 ||by==0) {
+        if ((px == gx && py == gy) || (px == bx && py == by) || (px == bx && py == by) || (px == 4 && py < 5) || (bx == 4 && by < 5) || (gx == 4 && gy < 5) ||bx==0 ||by==0||bx==9 ||by==9) {
             px = rd.nextInt(10);
             py = rd.nextInt(10);
             gx = rd.nextInt(10);
